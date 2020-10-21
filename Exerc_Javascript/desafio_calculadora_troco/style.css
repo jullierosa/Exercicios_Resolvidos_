@@ -1,0 +1,25 @@
+body{
+    background: rgb(255, 172, 172);
+    font: normal 15pt arial;
+    text-align: center;
+}
+
+section{
+    background: brown;
+    color: black;
+    width: 300px;
+    font: normal 12pt arial;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 4px 4px 10px black;
+    margin: auto;
+}
+div#calc{
+    width: 100px;
+    height: 60px;
+    margin: auto;
+    background: crimson;
+}
+footer{
+    color: white;
+}
