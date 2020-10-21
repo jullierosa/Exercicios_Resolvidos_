@@ -1,2 +1,2 @@
-# Exercicios_Resolvidos_
- Exercicios rsolvidos do curso de Javascript
+# Exercícios_Resolvidos_
+ Exercícios resolvidos do curso de Javascript
