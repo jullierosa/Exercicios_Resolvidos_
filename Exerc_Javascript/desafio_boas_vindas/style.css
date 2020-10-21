@@ -1,12 +1,11 @@
 body{
-    background: rgb(255, 172, 172);
+    background: white;
     font: normal 15pt arial;
     text-align: center;
 }
 
 section{
-    background: brown;
-    color: black;
+    background: black;
     width: 500px;
     font: normal 12pt arial;
     border-radius: 10px;
@@ -15,12 +14,12 @@ section{
     margin: auto;
 }
 div#desafio{
-    width: 200px;
-    height: 60px;
+    width: 150px;
+    height: 30px;
     background: cornflowerblue;
     margin: auto;
 }
 
-input{
-    width: 70px;
+div#res{
+    color: white;
 }
