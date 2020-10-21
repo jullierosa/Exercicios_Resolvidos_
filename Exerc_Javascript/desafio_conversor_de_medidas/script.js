@@ -8,5 +8,12 @@ function converter(){
     var n4 = parseFloat(Number(metros*10))
     var n5 = parseFloat(Number(metros*100))
     var n6 = parseFloat(Number(metros*1000))
-    res.innerHTML = (`<b>A distância de <i>${metros}metros</i>, corresponde a: ${n1}Km; ${n2}Hm; ${n3}Dam; ${n4}Dm; ${n5}Cm; ${n6}mm;</b>`)
+    res.innerHTML = (`<b>A distância de <i>${metros}metros</i>, corresponde a:</b></br>`)
+    res.innerHTML += (`${n1}Km;</br>`)
+    res.innerHTML += (`${n2}Hm;</br>`)
+    res.innerHTML += (` ${n3}Dam;</br>`)
+    res.innerHTML += (`${n4}Dm;</br>`)
+    res.innerHTML += (`${n5}Cm;</br>`)
+    res.innerHTML += (`${n6}mm;</br>`)
+
 }

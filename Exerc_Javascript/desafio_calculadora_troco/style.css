@@ -1,12 +1,12 @@
 body{
-    background: rgb(255, 172, 172);
+    background: white;
     font: normal 15pt arial;
     text-align: center;
 }
 
 section{
-    background: brown;
-    color: black;
+    background:black;
+    color:white;
     width: 300px;
     font: normal 12pt arial;
     border-radius: 10px;
@@ -16,10 +16,8 @@ section{
 }
 div#calc{
     width: 100px;
-    height: 60px;
+    height: 35px;
     margin: auto;
     background: crimson;
-}
-footer{
-    color: white;
+    border-radius: 4px;
 }
