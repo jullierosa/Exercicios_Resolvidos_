@@ -1,13 +1,11 @@
 body{
-    background: black;
+    background: white
     font: normal 15pt arial;
     text-align: center;
-    color: white;
 }
 
 section{
     background: brown;
-    color: black;
     width: 400px;
     font: normal 12pt arial;
     border-radius: 10px;
@@ -22,5 +20,5 @@ div#temp{
     background: white;
     width: 100px;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 5px;
 }
