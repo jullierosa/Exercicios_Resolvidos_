@@ -1,0 +1,8 @@
+body{
+    background: black;
+    color: white;
+    font: normal 12pt arial;
+}
+tr{
+    box-shadow: 4px 4px 10px white;
+}
