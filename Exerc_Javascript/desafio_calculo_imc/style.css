@@ -1,0 +1,53 @@
+body{
+    background: white;
+    text-align: left;
+   
+}
+
+input{
+    width: 200px;
+}
+header{
+    font-family: Courier New, monospace;
+    margin: left;
+    text-shadow: 1px 1px 1px black;
+    text-indent: 90px;
+}
+footer{
+    font: italic 10pt arial;
+    text-indent: 90px;
+}
+p#nome{
+    text-indent: 15px;
+    background-color: cadetblue;
+    width: 350px;
+    border: 10px solid cadetblue;
+    box-shadow: 3px 3px 3px black;
+
+}
+p#peso{
+    text-indent: 15px;
+    background-color: chocolate;
+    width: 350px;
+    border: 10px solid chocolate;
+    box-shadow: 3px 3px 3px black;
+}
+p#alt{
+    text-indent: 15px;
+    background-color: coral;
+    width: 350px;
+    border: 10px solid coral;
+    box-shadow: 3px 3px 3px black;
+}
+p#button{
+    text-indent: 30px;   
+}
+div#res{
+    width: 350px;
+    height: 150px;
+    text-indent: 15px;
+    background-color: black;
+    color: white;
+    border: 10px solid black;
+    box-shadow: 3px 3px 3px black;
+}
