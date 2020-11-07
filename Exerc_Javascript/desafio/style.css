@@ -1,0 +1,8 @@
+div#res{
+    background: black;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.452);
+    width: 300px;
+    height: 100px;
+}
