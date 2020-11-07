@@ -1,0 +1,32 @@
+p#alt{
+    background: brown;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black;
+    width: 400px;
+    border: 10px solid brown;
+    text-indent: 20px;
+}
+p#lar{
+    background: coral;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black;
+    width: 400px;
+    border: 10px solid coral;
+    text-indent: 20px;
+}
+div#res{
+    background: black;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black;
+    width: 425px;
+    height: 120px;
+    border: 10px solid black;
+    text-indent: 15px;
+}
+h1{
+    text-indent: 70px;
+}
+footer{
+    text-indent: 140px;
+}
