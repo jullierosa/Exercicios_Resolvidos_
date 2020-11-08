@@ -8,5 +8,5 @@ function calcular(){
     var valor = prompt(`Qual valor você deu para pagar o(a) ${prod}`)
     var resul = Number(valor - preco)
     var fim = alert(`${nome}, você comprou o(a) ${prod} que custou R$:${preco}. Você deu R$: ${valor},00 em dinheiro e receberá de troco o valor de R$: ${resul} reais.`)
-    res.innerHTML = `<b>${nome}</b> obrigada e volte sempre!`
+    res.innerHTML = `<p><b>${nome}</b> obrigada e volte sempre!</p>`
 }
