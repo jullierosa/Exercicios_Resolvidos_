@@ -5,7 +5,7 @@ body{
 }
 
 section{
-    background: black;
+    background: rgba(255, 0, 98, 0.438);
     width: 400px;
     height: 200px;
     font: normal 12pt arial;
@@ -15,16 +15,13 @@ section{
     margin: auto;
 }
 div#desafio{
-    width: 120px;
+    width: 60px;
     height: 30px;
-    background: cornflowerblue;
+    background: black;
     margin: auto;
-    border-radius: 3px;
+    border-radius: 2px;
 }
 
-div#res{
-    color: white;
-}
 p{
    margin: 40px 3px 30px 10px;
 }
