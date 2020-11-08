@@ -4,6 +4,6 @@ function calcular(){
     var txtn1 = Number(txtn1.value)
     var dob = parseFloat(txtn1*2)
     var tri = parseFloat(txtn1/3)
-    res.innerHTML = `O dobro de ${txtn1} é ${dob} <br>`
-    res.innerHTML += `A terça parte de ${txtn1} é ${tri}`
+    res.innerHTML = `<p>O dobro de ${txtn1} é ${dob}</p>`
+    res.innerHTML += `A terça parte de ${txtn1} é ${tri}.`
 }
