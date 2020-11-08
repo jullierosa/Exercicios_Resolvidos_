@@ -8,7 +8,7 @@ function calcular(){
         res.innerHTML = `${tnom}, sua velocidade foi de ${tvel}km/h.<br><br>`
     } else {
         var s = parseFloat((tvel-60)*5)
-        res.innerHTML = `${tnom}, você pagará ${s} reais de multa devido a ultrapassagem do limite de velocidade de <b>60km/h</b>`
+        res.innerHTML = `<p>${tnom}, você pagará ${s} reais de multa devido a ultrapassagem do limite de velocidade de <b>60km/h</b></p><br>`
     }
-    res.innerHTML += `<b><br>Obrigada pela atenção!USE SEMPRE CINTO DE SEGURANÇA</b>`
+    res.innerHTML += `<b>OBRIGADA!USE SEMPRE CINTO DE SEGURANÇA</b>`
 }
