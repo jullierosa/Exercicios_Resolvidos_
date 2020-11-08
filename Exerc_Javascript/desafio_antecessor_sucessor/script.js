@@ -1,7 +1,9 @@
 function clicar(){
     var desafio = document.querySelector("div#desafio")
+    var res = document.querySelector("div#res")
     var n1 = prompt("Digite um número qualquer:")
     var ant = parseInt(Number(n1)-1)
     var suc = parseInt(Number(n1)+1)
-    var res = alert(`Antes de ${n1}, temos o antecessor ${ant}. E após ${n1}, temos o sucessor ${suc}.`)
+    res.innerHTML = `${n1} <b>Antecessor</b> ${ant}.<br>`
+    res.innerHTML += `${n1} <b>Sucessor</b> ${suc}.`
 }
