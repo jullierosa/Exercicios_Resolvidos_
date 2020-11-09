@@ -1,0 +1,25 @@
+P#ini{
+  background-color: rgb(172, 170, 173); 
+  
+  box-shadow: 2px 2px 3px rgb(116, 113, 119);
+  padding: 10px;
+  text-indent: 10px;
+}
+p#fim{
+    background-color: rgb(255, 225, 247);
+    box-shadow: 2px 2px 3px rgb(250, 170, 214);
+    padding: 10px;
+    text-indent: 10px;
+}
+p#pas{
+    background-color: rgb(170, 183, 221);
+    box-shadow: 2px 2px 3px rgb(170, 183, 221);
+    padding: 10px;
+    text-indent: 10px;
+}
+div#res{
+
+}
+div#tit{
+    width: 300px;
+}
