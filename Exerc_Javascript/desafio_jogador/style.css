@@ -1,0 +1,7 @@
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0.411);
+    background: rgba(221, 95, 95, 0.582);
+}
