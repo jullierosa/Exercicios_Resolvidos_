@@ -8,7 +8,8 @@ function contar(){
     } else {
         var cont = txti
        while(cont <= txtf){
-           alert("ok")
+           res.innerHTML = (`passo ${cont}`)
+           cont = cont + txtp
        }
     }
 }
