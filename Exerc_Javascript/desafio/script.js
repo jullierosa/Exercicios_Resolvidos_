@@ -1,14 +1,14 @@
-function calcular(){
+function contar(){
     var txti = document.querySelector("input#txti")
     var txtf = document.querySelector("input#txtf")
     var txtp = document.querySelector("input#txtp")
     var res = document.querySelector("div#res")
-    var txti = Number(txti.value)
-    var txtf = Number(txtf.value)
-    var txtp = Number(txtp.value)
-    if(txti.value == 0 || txtf.value == 0 || txtp.value == 0){
+    if(txti.value.length == 0 || txtf.value.length == 0 || txtp.value.length == 0){
         alert("ERRO, FALTAM DADOS")
     } else {
-        alert("ok")
+        var cont = txti
+       while(cont <= txtf){
+           alert("ok")
+       }
     }
 }
