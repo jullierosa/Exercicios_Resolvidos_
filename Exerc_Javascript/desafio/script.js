@@ -10,10 +10,19 @@ function contar(){
         var txti = Number(txti.value)
         var txtf = Number(txtf.value)
         var txtp = Number(txtp.value)
-
-        for(var cont = txti; cont <= txtf; cont+=txtp){
-            res.innerHTML += `${cont},`
+        if(txti < txtf){
+            //Contagem crescente
+            for(var cont = txti; cont <= txtf; cont+=txtp){
+                res.innerHTML += `<b>${cont}</b> \u{1F449}`
+            }
+        } else {
+            //Contagem regressiva
+            for(var cont = txti; cont >= txtf; cont-=txtp){
+                res.innerHTML += `<b>${cont}</b> \u{1F449}`
+            }
         }
+        res.innerHTML += `\u{1F3C1}`//emogi
+
     }
 
 }
