@@ -6,10 +6,14 @@ function contar(){
     if(txti.value.length == 0 || txtf.value.length == 0 || txtp.value.length == 0){
         alert("ERRO, FALTAM DADOS")
     } else {
-        var cont = txti
-       while(cont <= txtf){
-           res.innerHTML = (`passo ${cont}`)
-           cont = cont + txtp
-       }
+        res.innerHTML = (`Contando...`)
+        var txti = Number(txti.value)
+        var txtf = Number(txtf.value)
+        var txtp = Number(txtp.value)
+
+        for(var cont = txti; cont <= txtf; cont+=txtp){
+            res.innerHTML += `${cont},`
+        }
     }
+
 }
