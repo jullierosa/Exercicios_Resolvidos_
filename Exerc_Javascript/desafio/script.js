@@ -6,9 +6,7 @@ function calcular(){
     var txti = Number(txti.value)
     var txtf = Number(txtf.value)
     var txtp = Number(txtp.value)
-    var cont = 1
-    while(cont <= 5){
-        res.innerHTML = `passo ${cont}`
-        cont = cont + 1
+    for (var c= txti; c <= txtf; c++){
+       res.innerHTML = `${c}`
     }
 }
