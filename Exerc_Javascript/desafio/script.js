@@ -1,5 +1,5 @@
 var nome = prompt("Olá, qual é o seu nome?")
-alert(`<b>Bem-Vindo, ${nome}!</b>`)
+alert(`Bem-Vindo, ${nome}!`)
 function contar(){
     var txti = document.querySelector("input#txti")
     var txtf = document.querySelector("input#txtf")
@@ -24,6 +24,7 @@ function contar(){
             }
         }
         res.innerHTML += `\u{1F3C1}`//emogi
+        res.innerHTML += `<br><b>${nome}, volte sempre!</b>`
 
     }
 
