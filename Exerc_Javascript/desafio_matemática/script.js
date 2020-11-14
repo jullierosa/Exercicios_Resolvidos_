@@ -6,10 +6,13 @@ function calcular(){
     if (txtn1.value.length == 0 || txtn2.value.length == 0){
         alert("ERRO, FALTAM DADOS!")
     } else {
-        res.innerHTML += ('Preparando a continha')
+        var txtn1 = Number(txtn1.value)
+        var txtn2 = Number(txtn2.value)
         if(mat == "somar"){
-            var s = (Number(txtn1 + txtn2))
-            prompt(`${s}`)
+            var s = txtn1 + txtn2
+            res.innerHTML = `A <b>soma</b> entre <b>${txtn1}</b> e <b>${txtn2}</b> temos o resultado:<b>${s}</b>`
+        } else if (mat == "subtrair"){
+            alert("ok!")
         }
     }
 }
