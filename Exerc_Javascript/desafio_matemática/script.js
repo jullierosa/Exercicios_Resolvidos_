@@ -10,16 +10,24 @@ function calcular(){
         var txtn2 = Number(txtn2.value)
         if(mat == "somar"){
             //soma
-            var s = txtn1 + txtn2
+            var cal = txtn1 + txtn2
             res.innerHTML = `<b>Vamos <i>${mat}</i></b>`
-            res.innerHTML += `<br><b>${txtn1} + ${txtn2} : ${s}</b>`
+            res.innerHTML += `<br><b>${txtn1} + ${txtn2} : ${cal}</b>`
         } else if (mat == "subtrair"){
             //subtração
-            var sub = txtn1 - txtn2
+            var cal = txtn1 - txtn2
             res.innerHTML =  `<b>Vamos <i>${mat}</i></b>`
-            res.innerHTML += `<br><b>${txtn1} - ${txtn2} : ${sub}</b>`
+            res.innerHTML += `<br><b>${txtn1} - ${txtn2} : ${cal}</b>`
         } else if (mat == "multiplicar"){
-            alert("ok!")
+            //multiplicação
+            var cal = txtn1 * txtn2
+            res.innerHTML = `<b>Vamos <i>${mat}</i></b>`
+            res.innerHTML += `<br><b>${txtn1} * ${txtn2} : ${cal}</b>`
+        } else {
+            //divisão
+            var cal = parseFloat(txtn1/txtn2)
+            res.innerHTML = `<b>Vamos <i>${mat}</i></b>`
+            res.innerHTML += `<br><b>${txtn1} / ${txtn2} : ${cal}</b>`
         }
     }
 }
