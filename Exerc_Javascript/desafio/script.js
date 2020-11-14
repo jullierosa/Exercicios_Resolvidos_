@@ -1,3 +1,5 @@
+var nome = prompt("Olá, qual é o seu nome?")
+alert(`<b>Bem-Vindo, ${nome}!</b>`)
 function contar(){
     var txti = document.querySelector("input#txti")
     var txtf = document.querySelector("input#txtf")
