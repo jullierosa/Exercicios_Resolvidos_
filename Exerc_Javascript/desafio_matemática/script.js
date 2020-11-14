@@ -8,26 +8,23 @@ function calcular(){
     } else {
         var txtn1 = Number(txtn1.value)
         var txtn2 = Number(txtn2.value)
+        res.innerHTML = `<b>Vamos <i>${mat}</i></b> \u{1F3C1}`
         if(mat == "somar"){
             //soma
             var cal = txtn1 + txtn2
-            res.innerHTML = `<b>Vamos <i>${mat}</i></b>`
-            res.innerHTML += `<br><b>${txtn1} + ${txtn2} : ${cal}</b>`
+            res.innerHTML += `<br>\u{1F449} <b>${txtn1} + ${txtn2} : ${cal}</b>`
         } else if (mat == "subtrair"){
             //subtração
             var cal = txtn1 - txtn2
-            res.innerHTML =  `<b>Vamos <i>${mat}</i></b>`
-            res.innerHTML += `<br><b>${txtn1} - ${txtn2} : ${cal}</b>`
+            res.innerHTML += `<br>\u{1F449} <b>${txtn1} - ${txtn2} : ${cal}</b>`
         } else if (mat == "multiplicar"){
             //multiplicação
             var cal = txtn1 * txtn2
-            res.innerHTML = `<b>Vamos <i>${mat}</i></b>`
-            res.innerHTML += `<br><b>${txtn1} * ${txtn2} : ${cal}</b>`
+            res.innerHTML += `<br>\u{1F449} <b>${txtn1} * ${txtn2} : ${cal}</b>`
         } else {
             //divisão
             var cal = parseFloat(txtn1/txtn2)
-            res.innerHTML = `<b>Vamos <i>${mat}</i></b>`
-            res.innerHTML += `<br><b>${txtn1} / ${txtn2} : ${cal}</b>`
+            res.innerHTML += `<br>\u{1F449} <b>${txtn1} / ${txtn2} : ${cal}</b>`
         }
     }
 }
