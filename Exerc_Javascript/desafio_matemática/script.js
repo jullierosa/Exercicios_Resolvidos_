@@ -9,9 +9,16 @@ function calcular(){
         var txtn1 = Number(txtn1.value)
         var txtn2 = Number(txtn2.value)
         if(mat == "somar"){
+            //soma
             var s = txtn1 + txtn2
-            res.innerHTML = `A <b>soma</b> entre <b>${txtn1}</b> e <b>${txtn2}</b> temos o resultado:<b>${s}</b>`
+            res.innerHTML = `<b>Vamos <i>${mat}</i></b>`
+            res.innerHTML += `<br><b>${txtn1} + ${txtn2} : ${s}</b>`
         } else if (mat == "subtrair"){
+            //subtração
+            var sub = txtn1 - txtn2
+            res.innerHTML =  `<b>Vamos <i>${mat}</i></b>`
+            res.innerHTML += `<br><b>${txtn1} - ${txtn2} : ${sub}</b>`
+        } else if (mat == "multiplicar"){
             alert("ok!")
         }
     }
