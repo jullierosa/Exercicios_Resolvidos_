@@ -1,0 +1,1 @@
+var mat = prompt("Você quer somar, subtrair, multiplicar ou dividir?")
