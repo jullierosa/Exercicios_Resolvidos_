@@ -4,6 +4,6 @@ function clicar(){
     var n1 = prompt("Digite um número qualquer:")
     var ant = parseInt(Number(n1)-1)
     var suc = parseInt(Number(n1)+1)
-    res.innerHTML = `${n1} <b>Antecessor</b> ${ant}.<br>`
-    res.innerHTML += `${n1} <b>Sucessor</b> ${suc}.`
+    res.innerHTML = `<p>${n1} <b>Antecessor</b> ${ant}</p><br>`
+    res.innerHTML += `${n1} <b>Sucessor</b> ${suc}`
 }
