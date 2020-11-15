@@ -1,10 +1,11 @@
-//var nom = prompt("Olá, sejam bem-vindos! Qual é o seu nome?")
 function calcular() {
     var data = new Date()
     var ano  = data.getFullYear()
+    var txtn = document.querySelector("input#txtn")
     var txtano = document.querySelector("input#txtano")
     var res = document.querySelector("div#res")
-    if (txtano.value == 0 || Number(txtano.value) > ano) {
+    var txtn = String(txtn.value)
+    if (txtano.value.length == 0 || Number(txtano.value) > ano) {
         window.alert("ERRO, VERIFIQUE OS DADOS E TENTE NOVAMENTE")
     } else {
         var tsex = document.getElementsByName('tsex')
@@ -31,4 +32,5 @@ function calcular() {
             }
         }
     }
+    res.innerHTML += `<p><br><b>${txtn}, obrigada pela sua atenção!</b></p> `
 }
