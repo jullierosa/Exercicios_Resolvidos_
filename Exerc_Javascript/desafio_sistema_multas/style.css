@@ -1,9 +1,7 @@
 body{
     background: white;
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;
     color: black;
-    text-align: left;
     text-indent: 50px;
 }
 input{
@@ -14,19 +12,19 @@ p#nome{
     border-radius: 5px;
     box-shadow: 4px 4px 10px black;
     width: 450px;
-    border: 10px solid violet;
+    padding: 15px;
 }
 p#vel{
     background: turquoise;
     border-radius: 5px;
     box-shadow: 4px 4px 10px black;
     width: 450px;
-    border: 10px solid turquoise;
+    padding: 15px;
 }
 div#res{
     background: lightcoral;
     border-radius: 5px;
     box-shadow: 4px 4px 10px black;
     width: 470px;
-    height: 150px;
+    padding: 30px;
 }

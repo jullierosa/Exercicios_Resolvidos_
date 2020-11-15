@@ -5,10 +5,10 @@ function calcular(){
     var tnom = String(tnom.value)
     var tvel = Number(tvel.value)
     if (tvel <= 60){
-        res.innerHTML = `${tnom}, sua velocidade foi de ${tvel}km/h.<br><br>`
+        res.innerHTML = `<p>${tnom}, sua velocidade foi de ${tvel}km/h.<br></p>`
     } else {
         var s = parseFloat((tvel-60)*5)
         res.innerHTML = `<p>${tnom}, você pagará ${s} reais de multa devido a ultrapassagem do limite de velocidade de <b>60km/h</b></p><br>`
     }
-    res.innerHTML += `<b>OBRIGADA!USE SEMPRE CINTO DE SEGURANÇA</b>`
+    res.innerHTML += `<p><b>OBRIGADA!USE SEMPRE CINTO DE SEGURANÇA</b></p>`
 }
