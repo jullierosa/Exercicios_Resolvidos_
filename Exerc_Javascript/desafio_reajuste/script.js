@@ -10,6 +10,6 @@ function calcular(){
     res.innerHTML = (`<b>${nome} recebeu um aumento salarial de ${porc}%</b></br>`)
     res.innerHTML += (`O salário atual era <b>R$${salar},00</b></br>`)
     res.innerHTML += (`Com um aumento de <b>${porc}%</b>, o salário vai aumentar <b>R$${val},00</b> no próximo mês.</br>`)
-    res.innerHTML += (`E a partir daí, <b>${nome}</b> vai passar a ganhar <b>R$${vf},00 reais</b>`)
+    res.innerHTML += (`E a partir daí <b>${nome}</b>, você vai passar a ganhar <b>R$${vf},00 reais</b>`)
    
 }

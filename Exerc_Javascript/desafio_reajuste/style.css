@@ -6,7 +6,6 @@ body{
 
 section{
     background: rgb(133, 133, 199);
-    color: white;
     width: 400px;
     height: 200px;
     font: normal 12pt arial;
@@ -21,4 +20,5 @@ div#sal{
     width: 100px;
     border-radius: 4px;
     margin: auto;
+    color: wheat;
 }
