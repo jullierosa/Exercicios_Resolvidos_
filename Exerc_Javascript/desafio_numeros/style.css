@@ -4,5 +4,11 @@ div#res{
     border-radius: 5px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.452);
     width: 300px;
-    height: 100px;
+    padding: 50px;
+}
+div#tit{
+    text-indent: 30px;
+}
+footer{
+    text-indent: 140px;
 }
