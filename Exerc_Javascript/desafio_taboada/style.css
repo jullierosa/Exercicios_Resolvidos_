@@ -13,10 +13,12 @@ div#tabMat{
     display: inline-block;
     cursor: pointer;
 }
-p#bot{
+div#bot{
     background: rgb(59, 62, 250);
     border: 2px solid black;
-    width: 53px;
+    width: 300px;
+    padding: 10px;
+    height: 100px;
     display: inline-block;
     cursor: pointer;
 }
