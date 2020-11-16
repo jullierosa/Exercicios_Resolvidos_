@@ -1,4 +1,4 @@
-var num = prompt("Quer saber a taboada de qual número?")//reserva o numero 
+var num = prompt("Quer saber a tabuada de qual número?")//reserva o numero 
 alert('antes de qualquer coisa, passe o mouse por cima da palavra TABUADA')
 var tab = document.querySelector("div#tabMat")
 var res = document.querySelector("div#res")
