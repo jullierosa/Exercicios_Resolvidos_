@@ -1,16 +1,12 @@
-const tab = document.querySelector('p#tabMat')
-tab.addEventListener('click' , atualizarTab)
-    var num = prompt("Quer saber a taboada de qual número?")
-    function atualizarTab(){
-        tab.textContent = 'Taboada: ' + num
+var num = prompt("Quer saber a taboada de qual número?")
+var tab = document.querySelector("div#tabMat")
+tab.addEventListener('mouseenter' , atTab)
+    function atTab(){
+        tab.innerHTML = `Calcularemos entao a Taboada: ${num}`
     }
-    function inicio() {
+    function calcular() {
         var res = document.querySelector("div#res")
-        var cont = 0;
-        var lim = 10;
-            while(cont <= lim){
-                var resp = num * cont
-                res.innerHTML = `${num} x ${cont} = ${resp}`
-                var cont = cont + 1
-            }
-    }
+        for(var cont = 0; cont <= 10;cont ++){
+            res.innerHTML = `${num} x ${cont} = ${resp}`
+        }
+    }4
