@@ -1,5 +1,5 @@
-//var num = prompt("Quer saber a taboada de qual número?")
-//alert('Passe o mouse por cima da palavra TABUADA')
+var num = prompt("Quer saber a taboada de qual número?")
+alert('antes de qualquer coisa, passe o mouse por cima da palavra TABUADA')
 var tab = document.querySelector("div#tabMat")
 var res = document.querySelector("div#res")
 tab.addEventListener('mouseenter' , entrar)
@@ -13,8 +13,7 @@ tab.addEventListener('mouseout' , sair)
     }
 
     function calcular(){
-        for (c=1; c <= 10; c++){
-            var resp = 9*c
-            res.innerHTML = `9x ${c} = ${resp}`
+        for (var c=1; c <= 10; c++){
+           document.write(`${num} x ${c} = ${num*c}<br>`)
         }
     }
