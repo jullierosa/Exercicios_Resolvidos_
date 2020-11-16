@@ -1,19 +1,22 @@
-var num = prompt("Quer saber a taboada de qual número?")
+var num = prompt("Quer saber a taboada de qual número?")//reserva o numero 
 alert('antes de qualquer coisa, passe o mouse por cima da palavra TABUADA')
 var tab = document.querySelector("div#tabMat")
 var res = document.querySelector("div#res")
-tab.addEventListener('mouseenter' , entrar)
-tab.addEventListener('mouseout' , sair)
+tab.addEventListener('mouseenter' , entrar)//mouse entrar na div
+tab.addEventListener('mouseout' , sair)//mouse sair da div
 
     function entrar(){
+        //funçao mouseenter
         tab.innerHTML = `Calcularemos entao a Tabuada: ${num}`
     }
     function sair(){
+        //função mouseout
         tab.innerHTML = "Que tal tentar resolver a tabuada mentalmente primeiro?"
     }
 
     function calcular(){
-        for (var c=1; c <= 10; c++){
+        //função calcular taboada
+        for (var c=1; c <= 10; c++){ 
            document.write(`${num} x ${c} = ${num*c}<br>`)
         }
     }
