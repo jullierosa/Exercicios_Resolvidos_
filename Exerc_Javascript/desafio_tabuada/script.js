@@ -17,7 +17,7 @@ tab.addEventListener('mouseout' , sair)//mouse sair da div
     function calcular(){
         //função calcular tabuada
         for (var c=0; c <= 10; c++){ 
-           document.write(`${num} x ${c} = ${num*c}<br>`)
+           document.write(`<i>${num} x ${c} = ${num*c}</i><br>`)
         }
         document.write("<p><b>Atualize para voltar a página principal</b></p>")
     }
