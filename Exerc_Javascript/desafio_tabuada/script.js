@@ -2,6 +2,7 @@ var num = prompt("Quer saber a tabuada de qual número?")//reserva o numero
 alert('antes de qualquer coisa, passe o mouse por cima da palavra TABUADA')
 var tab = document.querySelector("div#tabMat")
 var res = document.querySelector("div#res")
+var tab = document.querySelector("select#selTab")
 tab.addEventListener('mouseenter' , entrar)//mouse entrar na div
 tab.addEventListener('mouseout' , sair)//mouse sair da div
 
@@ -16,7 +17,8 @@ tab.addEventListener('mouseout' , sair)//mouse sair da div
 
     function calcular(){
         //função calcular tabuada
-        for (var c=1; c <= 10; c++){ 
+        for (var c=0; c <= 10; c++){ 
+           var item = document.createElement('option')
            document.write(`${num} x ${c} = ${num*c}<br>`)
         }
     }
