@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    background: rgb(49, 49, 117);
+    font: normal 15pt arial;
+}
+header{
+    text-align: center;
+    background: rgb(147, 147, 231);
+    font: normal 12pt arial;
+    width: 530px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.726);
+}
+section{
+    text-align: center;
+    background: rgb(142, 142, 209);
+    width: 500px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.562);
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+}
+p#buton{
+    box-shadow: 3px 3px 10px black;
+    width: 70px;
+    margin-left: auto;
+    padding: 10px;
+}
