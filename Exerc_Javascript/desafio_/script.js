@@ -7,6 +7,7 @@ function calcular(){
     var txtn1 = Number(txtn1.value)
     var txtn2 = Number(txtn2.value)
     var txtn3 = Number(txtn3.value)
-    var resp = (txtn2**)-4*(txtn1*txtn3)
-    res.innerHTML = `${resp}`
+    var resp = ((txtn2**2))-4(txtn1*txtn3)
+    alert = (`${resp}`)
+    res.innerHTML = `Obrigada`
 }
