@@ -4,6 +4,7 @@ function calcular(){
     let txtn2 = document.querySelector("input#txtn2")
     let txtn3 = document.querySelector("input#txtn3")
     let res = document.querySelector("div#res")
-    let resp = Number(txtn2**-4)
+    let resp = Number((txtn2**)-4*(txtn1*txtn3))
+    res.innerHTML = `${resp}`
 
 }
