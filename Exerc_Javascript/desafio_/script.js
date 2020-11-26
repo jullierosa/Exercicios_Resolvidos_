@@ -4,7 +4,9 @@ function calcular(){
     var txtn2 = document.querySelector("input#txtn2")
     var txtn3 = document.querySelector("input#txtn3")
     var res = document.querySelector("div#res")
-
+    var txtn1 = Number(txtn1.value)
+    var txtn2 = Number(txtn2.value)
+    var txtn3 = Number(txtn3.value)
     var resp = parseFloat(txtn2**2)(-4(txtn1*txtn3))
     alert = (`${resp}`)
     res.innerHTML = `Obrigada`
