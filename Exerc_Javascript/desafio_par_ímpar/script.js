@@ -5,9 +5,9 @@ function calcular(){
     var txtn1 = Number(txtn1.value)
     var resp = (txtn1%2)
     if (resp == 1){
-        res.innerHTML = `${nome}, seu número é ÌMPAR`
+        res.innerHTML = `<p>${nome}, seu número é ÌMPAR</p>`
     } else {
-        res.innerHTML = `${}, seu número é PAR`
+        res.innerHTML = `<p>${nome}, seu número é PAR</p>`
     }
     
 }
