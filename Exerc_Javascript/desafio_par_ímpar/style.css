@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(252, 252, 167);
+    text-indent: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div#res{
+    background-color: rgb(14, 14, 9);
+    color: white;
+    padding: 5px 10px;
+}
