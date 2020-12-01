@@ -7,4 +7,6 @@ div#res{
     background-color: rgb(14, 14, 9);
     color: white;
     padding: 5px 10px;
+    width: 310px;
+    border-radius: 3px;
 }
