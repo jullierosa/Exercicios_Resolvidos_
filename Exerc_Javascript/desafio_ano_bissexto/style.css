@@ -1,0 +1,16 @@
+body{
+    background-color: rgba(121, 118, 118, 0.445);
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-indent: 10px;
+}
+div#res{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(20, 19, 68, 0.747);
+    color: white;
+    padding: 10px;
+    width: 300px;
+}
+footer{
+    text-indent: 80px;
+}
