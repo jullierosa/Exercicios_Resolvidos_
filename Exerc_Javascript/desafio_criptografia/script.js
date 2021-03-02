@@ -12,7 +12,7 @@ function sort_to_numr(form) {
     else {
         sort_int = escape(form.input.value);
         for(o = 0; o < sort_int.length; o++) {
-            num_out += sort_int.charCodeAt(o) - 23;
+            num_out += sort_int.charCodeAt(o) - 23; 
         }
         form.output.value = num_out;
         form.input.value = "";
