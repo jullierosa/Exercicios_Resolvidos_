@@ -9,5 +9,5 @@ function calcular(){
     var txtn3 = Number(txtn3.value)
     var resp = parseFloat(txtn2**2)(-4(txtn1*txtn3))
     alert = (`${resp}`)
-    res.innerHTML = `Obrigada`
+    res.innerHTML = `Obrigada` 
 }
