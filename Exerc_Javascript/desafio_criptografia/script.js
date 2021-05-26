@@ -17,7 +17,7 @@ function sort_to_numr(form) {
         form.output.value = num_out;
         form.input.value = "";
     }
-}
+}  
 
 function numr_to_sort(form) {
     sort_out = "";
