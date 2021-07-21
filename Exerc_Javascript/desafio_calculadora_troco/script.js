@@ -1,4 +1,4 @@
-var nome = prompt("Antes de qualquer coisa, qual é o seu nome?")
+var nome = prompt("Antes de qualquer coisa, qual o seu nome?")
 alert(`Olá ${nome}!`)
 function calcular(){
     var calc = document.querySelector("div#calc")
