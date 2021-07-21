@@ -3,7 +3,7 @@ alert(`Olá ${nome}!`)
 function calcular(){
     var calc = document.querySelector("div#calc")
     var res = document.querySelector("div#res")
-    var prod = prompt(`${nome}, qual é o(a) nome do produlto que você está comprando?`)
+    var prod = prompt(`${nome}, qual é o produlto que você está comprando?`)
     var preco = prompt(`Quanto custa o(a) ${prod} que está comprando?`)
     var valor = prompt(`Qual valor você deu para pagar o(a) ${prod}`)
     var resul = Number(valor - preco)
